@@ -1,0 +1,32 @@
+{
+	"name": "ts-to-flow",
+	"version": "1.0.0",
+	"description": "A tool to convert all your .d.ts definitions to flow",
+	"main": "ts-to-flow.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc",
+		"prepublish": "npm run build"
+	},
+	"keywords": [
+		"flow",
+		"typescript",
+		"convert"
+	],
+	"author": {
+		"email": "k.lapinski@onet.pl",
+		"name": "Kamil Łapiński",
+		"url": "https://github.com/kamillapinski"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^2.4.1",
+		"flowgen": "^1.2.2",
+		"fs-extra": "^6.0.1"
+	},
+	"devDependencies": {
+		"@types/fs-extra": "^5.0.2",
+		"typescript": "^2.8.3",
+		"@types/node": "10.0.8"
+	}
+}
