@@ -1,5 +1,4 @@
 **/*.js
 !bin/ts-to-flow.js
 node_modules
-package-lock.json
 flow-typed
