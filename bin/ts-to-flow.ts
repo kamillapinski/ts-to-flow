@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fsExtra = require('fs-extra');
 const flowgen = require('flowgen').default;
 const path = require('path')
