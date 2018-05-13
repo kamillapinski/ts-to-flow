@@ -1,6 +1,6 @@
 {
 	"name": "ts-to-flow",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A tool to convert all your .d.ts definitions to flow",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
